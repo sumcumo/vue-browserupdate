@@ -1,6 +1,6 @@
 {
   "name": "vue-browserupdate",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Vue wrapper for 'browser-update' package",
   "main": "dist/index.js",
   "dependencies": {
@@ -32,5 +32,12 @@
     "opera"
   ],
   "author": "William DA SILVA <william.da.silva@outlook.com>",
+  "contributors": [
+    "sum.cumo GmbH"
+  ],
+  "bugs": {
+    "url": "https://github.com/sumcumo/vue-browserupdate/issues"
+  },
+  "homepage": "https://github.com/sumcumo/vue-browserupdate#readme",
   "license": "MIT"
 }
