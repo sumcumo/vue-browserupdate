@@ -1,5 +1,5 @@
 {
-  "name": "vue-browserupdate",
+  "name": "@sum.cumo/vue-browserupdate",
   "version": "1.2.1",
   "description": "Vue wrapper for 'browser-update' package",
   "main": "dist/index.js",
