@@ -19,7 +19,7 @@ Used to expose show, click and close events mainly.
 ## Install
 
 ```bash
-$ npm install --save vue-browserupdate
+$ npm install --save @sum.cumo/vue-browserupdate
 ```
 
 ## Getting Started
