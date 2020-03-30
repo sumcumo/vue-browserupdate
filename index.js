@@ -1,7 +1,7 @@
 import browserUpdate from 'browser-update';
 
 function addLoadEvent(func) {
-  const ondOnLoad = window.onload;
+  const oldOnLoad = window.onload;
   if (typeof window.onload !== 'function') {
     window.onload = func;
   } else {
@@ -25,7 +25,7 @@ VueBrowserUpdate.install = (Vue, opts) => {
   function dispatch(func, infos) {
     funcs[func].forEach(f => f(infos));
   }
-  
+
   addLoadEvent(() => {
     options.options.onshow = infos => dispatch('show', infos);
     options.options.onclick = infos => dispatch('click', infos);
