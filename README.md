@@ -2,6 +2,7 @@
 
 VueJS wrapper for ["browser update"](http://browser-update.org) package.
 Used to expose show, click and close events mainly.
+Forked from: https://github.com/WilliamDASILVA/vue-browserupdate
 
 ## Table of Contents ##
 
@@ -28,7 +29,7 @@ The Vue plugin must be initialized by your vue App.
 You should import it in your main .js file
 
 ```js
-import VueBrowserUpdate from 'vue-browserupdate';
+import VueBrowserUpdate from '@sum.cumo/vue-browserupdate';
 ```
 
 Then you just use the plugin by calling the Vue.use method.
