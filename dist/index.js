@@ -11,7 +11,7 @@ var _browserUpdate2 = _interopRequireDefault(_browserUpdate);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function addLoadEvent(func) {
-  var ondOnLoad = window.onload;
+  var oldOnLoad = window.onload;
   if (typeof window.onload !== 'function') {
     window.onload = func;
   } else {
