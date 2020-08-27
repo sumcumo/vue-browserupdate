@@ -1,6 +1,6 @@
 {
   "name": "@sum.cumo/vue-browserupdate",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Vue wrapper for 'browser-update' package",
   "main": "dist/index.js",
   "dependencies": {
