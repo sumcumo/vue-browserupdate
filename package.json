@@ -4,13 +4,16 @@
   "description": "Vue wrapper for 'browser-update' package",
   "main": "dist/index.js",
   "dependencies": {
-    "browser-update": "^3.3.13"
+    "browser-update": "^3.3.21"
   },
   "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/register": "^7.10.5",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.0",
-    "gulp": "^3.9.1",
-    "gulp-babel": "^7.0.0"
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
