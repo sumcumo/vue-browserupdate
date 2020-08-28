@@ -1698,7 +1698,7 @@ braces@^2.3.1, braces@^2.3.2:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
-browser-update@3.3.21:
+browser-update@^3.3.21:
   version "3.3.21"
   resolved "https://registry.yarnpkg.com/browser-update/-/browser-update-3.3.21.tgz#e32c12a45565d304c65d5a61e05144492dfa583c"
   integrity sha512-uoYVjWpjioyqLGbdY4F/uSA9ZYyxM1gVP7e/+d0OEafMcMP5XOOpmE5erXZdnUuigfevWXhDTseU5+84E2Hp2A==

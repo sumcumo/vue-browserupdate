@@ -4,7 +4,7 @@
   "description": "Vue wrapper for 'browser-update' package",
   "main": "dist/index.js",
   "dependencies": {
-    "browser-update": "3.3.21"
+    "browser-update": "^3.3.21"
   },
   "devDependencies": {
     "@babel/core": "7.11.4",
